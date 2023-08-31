@@ -1,25 +1,39 @@
+@font-face {
+  font-family: Exo;
+  src: url(./fonts/Exo-Variable.ttf);
+}
+
+/* Styles for the default root window element */
+:root {
+  --background-color-primary: #fff;
+  --background-color-secondary: #fafafa;
+  --accent-color: #cacaca;
+  --text-primary-color: #041628;
+  --text-secondary-color: #93BE76;
+  --element-size: 4rem;
+}
+
+/* Styles for the default root window element with dark mode preference */
+:root.dark-theme {
+  --background-color-primary: #041628;
+  --background-color-secondary: #2d2d30;
+  --accent-color: #3f3f3f;
+  --text-primary-color: #fff;
+  --text-secondary-color: #93BE76;
+}
+
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
   padding: 2rem;
-
   font-weight: normal;
+  font-family: "Exo", "Lato", sans-serif;
+  color: #fff;
+  box-sizing: border-box;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   body {
     display: flex;
     place-items: center;
@@ -30,4 +44,4 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
-}
+} */
