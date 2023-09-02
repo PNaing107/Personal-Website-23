@@ -4,7 +4,9 @@
       <h1>Phone Naing</h1>
       <h2>Software Developer</h2>
     </div>
-    <ToggleSwitch id="color-theme" :switch-toggle-state="toggleState" @toggle="toggleTheme">
+    <div class="control">
+      <img id="logo" src="../../assets/light-green-icon.png" alt="phone naing logo">
+      <ToggleSwitch id="color-theme" :switch-toggle-state="toggleState" @toggle="toggleTheme">
       <template #on>
         <span>🌙</span>
       </template>
@@ -12,6 +14,7 @@
         <span>☀️</span>
       </template>
     </ToggleSwitch>
+    </div>
     <div>
       <p>Connect with me:</p>
       <div class="social">
@@ -97,5 +100,17 @@ h2 {
 .social {
   display: flex;
   justify-content: space-around;
+}
+
+#logo {
+  width: 4rem;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
