@@ -29,7 +29,7 @@
             </ul>
             <div class="controls">
                 <button @click="showModal">View My Skills</button>
-                <button>View My CV</button>
+                <button><a href="https://naingphonecv.tiiny.site">View My CV</a></button>
             </div>
         </div>
         <Modal v-show="isModalVisable" @close="closeModal">
