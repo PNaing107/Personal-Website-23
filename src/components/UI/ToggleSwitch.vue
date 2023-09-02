@@ -51,7 +51,6 @@ p {
   position: relative;
   transition: background 0.5s ease;
   justify-content: space-between;
-  z-index: 1;
 }
 
 .switch-toggle {

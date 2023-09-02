@@ -33,19 +33,23 @@
             </div>
         </div>
         <Modal v-show="isModalVisable" @close="closeModal">
-            <template #header>My Sjills</template>
-            <template #body>Body</template>
-            <template #footer>Footer</template>
+            <template #header><h3 style="margin:0">My Skills</h3></template>
+            <template #body>
+                <SkillsAboutMe></SkillsAboutMe>
+            </template>
+            <template #footer></template>
         </Modal>
     </section>
 </template>
 
 <script>
-import Modal from '../UI/Modal.vue';
+import Modal from '../UI/TheModal.vue';
+import SkillsAboutMe from './slots/SkillsAboutMe.vue';
 
 export default {
     components: {
-        Modal
+        Modal,
+        SkillsAboutMe,
     },
     data() {
         return {

@@ -9,7 +9,7 @@
 <script>
 import TheHeader from './components/layout/TheHeader.vue';
 import NavigationBar from './components/UI/NavigationBar.vue';
-import About from './components/pages/About.vue';
+import About from './components/pages/AboutMe.vue';
 
 export default {
   components: {
