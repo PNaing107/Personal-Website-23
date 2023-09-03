@@ -4,6 +4,7 @@
     <NavigationBar @navigation="updateContent"></NavigationBar>
     <WelcomeBanner :show-banner="showWelcome"></WelcomeBanner>
     <About v-if="content === 'About Me'"></About>
+    <PersonalProjects v-if="content === 'Projects'"></PersonalProjects>
   </main>
 </template>
 
@@ -11,6 +12,7 @@
 import TheHeader from './components/layout/TheHeader.vue';
 import NavigationBar from './components/UI/NavigationBar.vue';
 import About from './components/pages/AboutMe.vue';
+import PersonalProjects from './components/pages/PersonalProjects.vue';
 import WelcomeBanner from './components/layout/WelcomeBanner.vue';
 
 export default {
@@ -18,6 +20,7 @@ export default {
     TheHeader,
     NavigationBar,
     About,
+    PersonalProjects,
     WelcomeBanner,
   },
   data() {
