@@ -32,7 +32,7 @@
             <ul class="no-list-style">
                 <li>Version Control (Git)</li>
                 <li>Cypress</li>
-                <li>Unit Testing (PHPUnit & Jest)</li>
+                <li>Unit Testing (PHPUnit & Vitest)</li>
                 <li>Static Analysis (PHPStan)</li>
             </ul>
         </div>
