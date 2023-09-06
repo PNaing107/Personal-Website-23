@@ -85,10 +85,6 @@ export default {
 
 .carat {
     color: rgb(138, 43, 226, 1);
-    /* animation-name: blink; */
-    /* animation-duration: 0.5s; */
-    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
-    /* animation: blink 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); */
     
 }
 
@@ -103,6 +99,12 @@ export default {
 
     to {
         color: rgb(138, 43, 226, 0);
+    }
+}
+
+@media (max-width: 425px) {
+    #banner {
+        font-size: 2rem;
     }
 }
 </style>

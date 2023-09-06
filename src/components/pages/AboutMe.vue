@@ -82,7 +82,7 @@ section {
     flex-direction: column;
     align-content: center;
     border-radius: var(--border-radius-default);
-    width: clamp(120px, 60vw, 1024px);
+    width: clamp(260px, 60vw, 1024px);
     margin: 0 auto;
     background-color: var(--background-color-secondary);
 }
@@ -97,5 +97,17 @@ section {
     margin: 1rem 0;
     display: flex;
     justify-content: space-evenly;
+}
+
+@media (max-width: 660px) {
+    .controls {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        width: auto;
+        margin: 0.5rem;
+    }
 }
 </style>

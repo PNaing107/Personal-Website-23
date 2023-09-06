@@ -1,8 +1,8 @@
 <template>
   <TheHeader></TheHeader>
   <main>
-    <NavigationBar @navigation="updateContent"></NavigationBar>
     <WelcomeBanner :show-banner="showWelcome"></WelcomeBanner>
+    <NavigationBar @navigation="updateContent"></NavigationBar>
     <About v-if="content === 'About Me'"></About>
     <PersonalProjects v-if="content === 'Projects'"></PersonalProjects>
     <TheBlog v-if="content === 'Blog'"></TheBlog>

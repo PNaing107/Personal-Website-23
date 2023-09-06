@@ -48,6 +48,8 @@ export default {
   overflow-x: auto;
   display: flex;
   flex-direction: column;
+  max-height: 80vh;
+  max-width: 90vw;
 }
 
 .modal-header,
@@ -73,8 +75,6 @@ export default {
   position: relative;
   margin-top: 0;
   padding: 1rem 2rem;
-  max-height: 60vh;
-  max-width: 90vw;
   overflow-y: auto;
 }
 
@@ -96,9 +96,6 @@ export default {
 }
 
 .btn-green {
-  /* color: var(--modal-text-color); */
-  /* background: var(--modal-background-color); */
-  /* border: 1px solid var(--modal-text-color); */
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: fit-content;

@@ -43,4 +43,21 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 660px) {
+  .style-64 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .style-64 div > button:nth-child(2) {
+    margin: 0.5rem 0;
+  }
+
+  button {
+    width: 90%;
+    justify-content: space-between;
+  }
+}
 </style>

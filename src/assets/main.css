@@ -24,8 +24,8 @@
   }
 
 #app {
-  height: 100vh;
   width: 100vw;
+  min-height: 100vh;
   margin: 0;
   padding: 2rem;
   font-weight: normal;
@@ -47,16 +47,3 @@ button:hover {
   background-color: var(--text-secondary-color);
   cursor: pointer;
 }
-
-/* @media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-} */

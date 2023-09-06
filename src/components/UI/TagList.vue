@@ -20,11 +20,12 @@ export default {
 <style scoped>
 .taglist {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .tag {
     padding: 0.2rem 0.4rem;
-    margin-right: 0.5rem;
     border: 1px solid var(--text-primary-color);
     border-radius: 0.2rem;
 }

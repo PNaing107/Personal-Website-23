@@ -121,11 +121,18 @@ h2 {
     align-items: center;
   }
 
+  h1 {
+    text-align: center;
+  }
+
   .control {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 30%;
+  }
+
+  #logo {
+    margin-right: 1rem;
   }
 
   .social {
