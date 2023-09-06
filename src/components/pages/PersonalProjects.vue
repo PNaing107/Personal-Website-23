@@ -49,7 +49,7 @@ export default {
                             class: 'text-light-blue'
                         },
                         {
-                            name: 'Cypress',
+                            name: 'Vitest',
                             class: ''
                         }
                     ],
@@ -76,6 +76,9 @@ export default {
                             name: 'MySQL',
                             class: 'text-orange'
                         },
+                        {
+                            name: 'PHPUnit'
+                        }
                     ],
                     description: 'A Restful API built with PHP (Slim Framework) and MySQL to track restaurant orders.',
                     objective: 'To demonstrate an understanding of the SOLID principles of OOP while working with a minimalist backend PHP framework.',

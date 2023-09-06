@@ -42,6 +42,6 @@ export default {
 }
 
 .text-light-blue {
-    color: aqua;
+    color: #0facf5;
 }
 </style>
