@@ -74,6 +74,7 @@ export default {
   margin-top: 0;
   padding: 1rem 2rem;
   max-height: 60vh;
+  max-width: 90vw;
   overflow-y: auto;
 }
 
