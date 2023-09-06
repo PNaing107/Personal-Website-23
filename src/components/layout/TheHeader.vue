@@ -113,4 +113,23 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+  }
+
+  .social {
+    margin-bottom: 0.5rem;
+  }
+}
 </style>
