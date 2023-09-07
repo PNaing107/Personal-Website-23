@@ -17,6 +17,7 @@
             <template #header>Blog Post</template>
             <template #body>
                 <Post1 v-if="modalBody === 1"></Post1>
+                <Post2 v-if="modalBody === 2"></Post2>
             </template>
         </Modal>
     </section>
@@ -26,18 +27,32 @@
 import TagList from '../UI/TagList.vue';
 import Modal from '../UI/TheModal.vue';
 import Post1 from './blog/Post1.vue';
+import Post2 from './blog/Post2.vue';
 
 export default {
     components: {
         TagList,
         Modal,
         Post1,
+        Post2,
     },
     data() {
         return {
             isModalVisable: false,
             modalBody: null,
             posts: [
+                {
+                    id: 2,
+                    title: 'My First 6 months as a Developer',
+                    created_at: '08/07/2023',
+                    tags: [
+                        {
+                            name: 'Career',
+                            class: 'text-purple'
+                        },
+                    ],
+                    description: 'A brief reflection on a whirlwind first 6 months as a developer.',
+                },
                 {
                     id: 1,
                     title: 'Why I decided to become a Software Developer',
