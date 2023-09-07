@@ -49,6 +49,6 @@
 
 <style scoped>
 #automate {
-    width: 25%;
+    width: clamp(120px,25%);
 }
 </style>
